@@ -16,3 +16,10 @@ it('comprobar función resta', function() {
 
 
 
+// Test
+it('comprobar función par', function() {
+  operaciones.par.should.be.a.Function();
+  should.equal(operaciones.par(4), "par");
+  should.equal(operaciones.par(3), "impar");
+	should.equal(operaciones.par("hola"), "string");
+});

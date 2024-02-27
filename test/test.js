@@ -16,7 +16,7 @@ it('comprobar función suma', function() {
 it('comprobar función par', function() {
 	assert.equal(operaciones.par(3), "impar");
 	assert.equal(operaciones.par(4), "par");
-	assert.equal(operaciones.par("hola"), undefined);
+	assert.equal(operaciones.par("hola"), "string");
 });
 
 

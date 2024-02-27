@@ -12,7 +12,7 @@ var resta = function suma (a, b) {
 
 var par = function par (a) {
 	if (typeof(a) === 'string') {
-        return undefined;
+        return "string";
     }
     if (a% 2 === 0) {
         return "par";
